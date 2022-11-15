@@ -17,6 +17,6 @@ const groups1 = (Array1, key) => {
     }, {}); // empty object is the initial value for result object
 };
 
-// Group by color as key to the person array
+// Group by id as key to the Array1 array
 const personGroupedByid = groups1(Array1, 'id');
 console.log(personGroupedByid);
